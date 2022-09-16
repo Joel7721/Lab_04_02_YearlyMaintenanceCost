@@ -8,6 +8,10 @@ public class YearlyMaintenanceCost {
 
         totalYearlyMaintenanceCost = springCost + summerCost + fallCost + winterCost;
 
+        System.out.println("The spring cost is: " + springCost);
+        System.out.println("The summer cost is: " + summerCost);
+        System.out.println("The winter cost is: " + winterCost);
+        System.out.println("The fall cost is: " + fallCost);
         System.out.println("The total yearly maintenance cost is: " + totalYearlyMaintenanceCost);
     }
 }
